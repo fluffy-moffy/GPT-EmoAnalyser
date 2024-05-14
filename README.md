@@ -1,5 +1,7 @@
 # README
 
+![demo](https://github.com/fluffy-moffy/GPT-EmoAnalyser/assets/90229589/e36e0245-b316-4442-9e98-39958c59deac)
+
 This guide provides instructions on how to set up and run the GPT-EmoAnalyser application, which interfaces with OpenAI's GPT models and utilizes sentiment analysis from TextBlob.
 
 
