@@ -42,8 +42,8 @@ class DynamicCircle:
             color = (int(red), 30, int(blue))
 
             # antialiasing
-            pygame.gfxdraw.filled_circle(self._screen, int(x), int(y), 2, color)
-            pygame.gfxdraw.aacircle(self._screen, int(x), int(y), 2, color)
+            pygame.gfxdraw.filled_circle(self._screen, int(x), int(y), 4, color)
+            pygame.gfxdraw.aacircle(self._screen, int(x), int(y), 4, color)
 
     # Getter and Setter methods
     def get_center_x(self):
