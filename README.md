@@ -8,6 +8,8 @@ This guide provides instructions on how to set up and run the GPT-EmoAnalyser ap
 1. **Clone the repository or download the source code:**
    ```bash
    git clone https://github.com/fluffy-moffy/GPT-EmoAnalyser.git
+   ```
+   ```bash
    cd GPT-EmoAnalyser
    ```
 
@@ -27,8 +29,10 @@ This guide provides instructions on how to set up and run the GPT-EmoAnalyser ap
 ## Running the Application
 -----------------
 To run the application, execute the following command in the terminal:
-```
+```bash
 cd src
+```
+```bash
 python driver.py
 ```
 
