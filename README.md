@@ -38,17 +38,10 @@ cd src
 python driver.py
 ```
 
-## Additional Setup
-----------------
-- TextBlob Library:
-  After installing the required libraries, run the following command to download the necessary corpora for TextBlob:
-python -m textblob.download_corpora
 
-Note: TextBlob's sentiment analysis can sometimes be unstable. If you observe that there is no change in sentiment temperature, try terminating and restarting the process.
 
 ## Troubleshooting
 ---------------
 - If you encounter issues related to API key permissions or limits, ensure your OpenAI account is active and has the appropriate access levels.
+- TextBlob's sentiment analysis can sometimes be unstable. If you observe that there is no change in sentiment temperature, try terminating and restarting the process.
 - Using the OpenAI API might incur charges, so please check the current pricing plans on OpenAI's platform and ensure you understand the cost implications before extensive use.
-
-If you need further assistance, contact support@openai.com
